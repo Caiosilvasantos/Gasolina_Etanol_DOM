@@ -1,0 +1,27 @@
+.texto1{
+    color:black;
+    background-color: rgb(255, 230, 0);
+    text-align: center;
+}
+.formularioPrincipal{
+    text-align: center;
+}
+.texto2{
+    float: right;
+    background-color:rgb(255, 230, 0);
+    margin: 200px;  
+}
+*{
+    background-color:darkgray;
+}
+.btnCalcular, .btnLimpar{
+    background-color: rgb(255, 230, 0);
+    border-radius: 20px;
+}
+.placeGasolina, .placeEtanol{
+    background-color:rgb(255, 230, 0);
+    color:black;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}   

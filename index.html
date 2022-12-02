@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gasolina ou Etanol</title>
+</head>
+<body>
+    <h1 class="texto1">Gasolina ou Etanol?</h1>
+    <section class="formularioPrincipal">
+    <img src="Imagens/neutro.png" alt="Calcular Gasolina x Etanol" id="status">
+    
+    <form name="formularioFlex">
+        <input class="placeEtanol" type="text" placeholder="Etanol ex: 3.80" size="10" name="txtEtanol">
+        <input class="placeGasolina" type="text" placeholder="Gasolina ex 4.90" size="14"name="txtGasolina">
+        <input class="btnCalcular" type="button" value="Calcular" onclick="calcular()">
+        <input class="btnLimpar" type="reset" value="Limpar" onclick="resetar()">
+    </form>
+</section>
+    <h3 class="texto2">
+        Vale a Pena abastecer com ETANOL se o litro custar até 70% do valor do litro da GASOLINA.
+
+    </h3>
+
+    <script src="calculate.js"></script>
+
+
+</body>
+</html>
